@@ -5,13 +5,7 @@ Für Slides und Code Beispiele, siehe [Lektion 4](../../../fhnw-syspr/blob/maste
 > *Achtung: Arbeiten Sie nicht direkt auf diesem Repository.*<br/>
 > *[Prüfen Sie die vorhandenen Forks, um das Repository für Ihre Klasse zu finden.](../../network/members)*
 
-### a) Eigenes *malloc()*, 20'
-* Implementieren sie im Programm my_malloc.c die Funktionen *my_malloc()* und *my_free()* "von Hand".
-* Nutzen Sie dazu die System Calls *sbrk()* oder *brk()*.
-* Starten Sie mit einer einfachen Implementierung.
-* Läuft *test1()* durch? Was braucht es für *test2()*?
-
-### b) Signal Handler, 15'
+### a) Signal Handler, 15'
 * Schreiben Sie ein Programm *my_sigint.c*, welches das Signal *SIGINT* mit einem Handler behandelt.
 * Die Handler Funktion soll dabei handle() heissen.
 * Senden Sie dem Programm *SIGINT* mittels *CTRL-C*.
